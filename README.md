@@ -12,7 +12,7 @@ makes SOMs useful for visualization by creating low-dimensional views of high-di
 
 Ability of SOM to visualize high-dimensional data by creating low-dimensional has been used here.
 
-1 - In colour palette problem 3D RGB data has been used to train a neural network and create map in which particular area responds most to one set of input. And that input is placed on that neuron. 
+1 - In colour palette problem 3D RGB data has been used to train a neural network and create map in which particular area responds most to one set of inputs. And that input is placed on that neuron and this is repeated on all inputs to generate the entire map. 
 
 2 - In MNIST dataset problem 784D data in similar fashion as above has been mapped to 2D map. And colour label has been given to each digit label which helps in plotting. 
 
