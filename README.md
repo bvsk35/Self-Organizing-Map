@@ -10,3 +10,11 @@ they apply competitive learning as opposed to error-correction learning (such as
 and in the sense that they use a neighborhood function to preserve the topological properties of the input space. This 
 makes SOMs useful for visualization by creating low-dimensional views of high-dimensional data, akin to multidimensional scaling.
 
+Ability of SOM to visualize high-dimensional data by creating low-dimensional has been used here.
+1 - In colour palette problem 3D RGB data has been used to train a neural network and create map in which particular area responds most to one set of input. And that input is placed on that neuron. 
+
+2 - In MNIST dataset problem 784D data in similar fashion as above has been mapped to 2D map. And colour label has been given to each digit label which helps in plotting. 
+
+Results for colour paletter and MNIST dataset has been posted. SOM and PCA helps in dimensional reduction which can be further used to develop a classifier using algorithms like K-Means, Nerual Networks etc. 
+
+For further information refer: https://en.wikipedia.org/wiki/Self-organizing_map and the code for Color Palette. 
